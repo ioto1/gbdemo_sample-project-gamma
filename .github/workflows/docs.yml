@@ -1,0 +1,16 @@
+# Project Gamma — Docs Pipeline
+name: Docs
+on:
+  push:
+    branches: [main]
+    paths:
+      - docs/**
+      - .github/workflows/docs.yml
+jobs:
+  convert:
+    uses: ioto1/gbdemo_doc-converter/.github/workflows/docs-conversion.yml@main
+    with:
+      project-name: gamma
+      source-dir: docs/
+    secrets:
+      deploy-key: ${{ secrets.GITBOOK_DEPLOY_KEY }}
