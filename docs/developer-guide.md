@@ -101,3 +101,5 @@ python scripts/benchmark.py --runs 1000
 2. Write tests in `tests/unit/` for new code
 3. Run `pre-commit run --all-files` before pushing
 4. Open an MR — CI runs the full test suite automatically
+
+Last updated: 2026-07-02 14:55:00 UTC

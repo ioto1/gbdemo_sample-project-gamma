@@ -49,3 +49,5 @@ Pre-trained models are available in `models/`:
 - `yolov11n-gripper.onnx` — object detector (78 MB)
 - `dexnet4-franka.onnx` — grasp quality CNN (245 MB)
 - `material-classifier.onnx` — surface material predictor (34 MB)
+
+Last updated: 2026-07-02 14:55:00 UTC

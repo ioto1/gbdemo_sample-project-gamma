@@ -74,3 +74,5 @@ gamma_grip_force_newtons{profile="standard"} 4.2
 ```
 
 Grafana dashboard: `dashboards/gamma-overview.json`
+
+Last updated: 2026-07-02 14:55:00 UTC
